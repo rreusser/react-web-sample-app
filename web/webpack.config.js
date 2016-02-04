@@ -13,6 +13,9 @@ var PROD = 'production';
 var DEV = 'development';
 let isProd = NODE_ENV === 'production';
 
+console.log('ROOT_PATH =', ROOT_PATH)
+
+
 var config = {
   paths: {
     src: path.join(ROOT_PATH, '.'),
